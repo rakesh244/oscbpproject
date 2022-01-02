@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Add bootstrap link above all existing link elemenets -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <title>CALCI</title>
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="m-3 display-5">Welcome to <br> <div class="heading"> CALCULATOR FOR CPU SCHEDULING ALGORITHMS</div> </div>
+        <div class="text-center mb-5">
+        <button class="btn knowbut mt-3 mx-3" data-bs-target="#hh" data-bs-toggle="collapse">Know more</button>
+        <div id="hh" class="mx-3 collapse">
+            <div class="card card-body">
+            <p class=" mt-2">You can calculate Waiting times, Turnaround times and Completion times. <br>
+                All you have to do is give us Arrival times,Priority and Burst times of all the processes
+            </p>
+        </div>
+        </div>
+        </div>
+
+        <!-- drop downs -->
+        <div class=" text-center dropdown mx-3">
+            <button class="btn selbut px-4 dropdown-toggle" data-bs-toggle="dropdown">Select</button>
+            <ul class="dropdown-menu ">
+                <li>
+                    <a href="fcfs.html" class="dropdown-item">First Come First Serve Scheduling</a>
+                </li>
+                <li>
+                    <a href="sjfs.html" class="dropdown-item">Shortest Job First Scheduling</a>
+                </li>
+                <li>
+                    <a href="priority.html" class="dropdown-item">Priority Scheduling</a>
+                </li>
+                <li>
+                    <a href="roundrobin.html" class="dropdown-item">Round Robin Scheduling</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>    
+</body>
+</html>
